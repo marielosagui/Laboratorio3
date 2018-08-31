@@ -1,0 +1,100 @@
+.logo-container{
+    display: inline-block;
+    background-color: black;
+    border: 2px black solid;
+    padding: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+nav{
+    display: inline-block;
+    padding: 20px;
+
+}
+body{
+    font-family: sans-serif;
+    scrollbar-base-color: #2d3436
+}
+
+nav  ul{
+    display:inline-block;
+    padding: 20px;
+    background: black transparent;
+   margin-right: 5%;
+   margin-left: 5%;
+}
+
+ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    padding: 30px;
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+figcaption{
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+
+figure{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+a{
+    color:#0984e3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+figure img{
+border-image-width: 100%;
+}
+
+footer{
+    background-color: #2d3436;
+    padding: 20px;
+    color:white;
+}
+
+#label{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+fieldset{
+    border: none;
+}
+
+.section-footer{
+display: inline-block;
+margin-right: 15%;
+margin-left: 15%
+} 
+
+.input-group{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    background-color: #d35400;
+    color:white;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
