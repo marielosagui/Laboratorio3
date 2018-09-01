@@ -1,43 +1,59 @@
-table{
-    margin-left: 2em;
-    margin-right: 2em;
-    text-align: center;
+*{
+    margin: auto auto;
+}
+
+.white{
+    background-color: white;
+}
+
+.black{
+    background-color: black;
+}
+
+table td{
+    height: 5em;
+    width: 5em;
+    border: 2px black solid;
+}
+
+.white:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.black:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+ div{
+    visibility: hidden
 }
 
 h1{
-    padding: 2em;
-    font-size:2em;
-    width: fit-content;
-    margin: 10px auto;
     text-align: center;
-    color: crimson;
+    color:white;
+    font-weight: bold;
+    padding:2em;
+    font-family: 'Rammetto One', cursive;
+    font-weight: 100px
 }
 
-td {
-    width: 120px;
-    height: 120px;
+td:hover div{
+    visibility: visible
 }
 
-table.striped tr:nth-child(odd) {
-    background-color:black;
+nav{
+    background-color: rgb(203, 177, 228);
+    margin-bottom: 3%;
 }
 
-td:hover {
-    background-color: rgba(216, 25, 25, 0.753);
+footer {
+    background-color: rgb(203, 177, 228);
+    padding: 25px;
+    text-align: center;
+    color: black;
+    font-family: 'Neucha', cursive;
 }
-
-.border-left {
-    border-left: 3px solid black;
-}
-
-.border-bottom{
-    border-bottom: 3px solid black;
-}
-
-.border-top {
-    border-top: 3px solid black;
-}
-
-.border-right {
-    border-right: 3px solid black;
+footer p{
+    color: black solid;
+    font-family: 'Neucha', cursive;
 }
